@@ -1,0 +1,4 @@
+# Project exclude paths
+/target/
+.idea/
+manaba4j.iml
