@@ -3,6 +3,7 @@ package dev.itsu.manaba.model
 data class Course(
     val title: String,
     val url: String,
+    val imageUrl: String,
     val isNewsAvailable: Boolean,
     val isTestOrQuestionAvailable: Boolean,
     val isReportAvailable: Boolean,
@@ -10,5 +11,5 @@ data class Course(
     val isIndividualAvailable: Boolean,
     val year: Int,
     val information: String,
-    val teachers: List<String>
+    val teachers: List<String>,
 )
